@@ -75,11 +75,13 @@ reg  [ 4: 0] mClk_sprite2;   //Sprite moving clock divider
 reg  [ 3: 0] fsm_objWR;     //State machine of object ram writing
 
 //assign oBkg_sel = change;
-always @(posedge clk or negedge reset_n) begin
+always @(posedge clk or negedge reset_n) begin			//这部分还需新的结束画面，oBke_sel的值要相应地改
 	if(!reset_n) oBkg_sel=0;
 	else begin 
-	if(Collision(xPos_bombMan,yPos_bombMan,xPos_sprite,yPos_sprite)) oBkg_sel=1;
-	if(Collision(xPos_bombMan2,yPos_bombMan2,xPos_sprite2,yPos_sprite2)) oBkg_sel=1;
+	if(Collision(xPos_bombMan,yPos_bombMan,xPos_sprite,yPos_sprite)
+		||Collision(xPos_bombMan,yPos_bombMan,xPos_sprite2,yPos_sprite2)) oBkg_sel=1;  //man die
+	if(Collision(xPos_bombMan2,yPos_bombMan2,xPos_sprite2,yPos_sprite2)
+		||Collision(xPos_bombMan2,yPos_bombMan2,xPos_sprite,yPos_sprite)) oBkg_sel=1;	//man2 die
 	end
 end
 
@@ -361,7 +363,7 @@ begin
 	else get_background = 1'b0;
 end
 endfunction //get_background
-
+//Function to determine collision
 function Collision;
 	input [4:0] bombman_x;
 	input [3:0] bombman_y;
