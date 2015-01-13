@@ -193,7 +193,7 @@ always @(posedge clk or negedge reset_n) begin
 	else if(clkCount == 8'd1) begin
 		mClk_sprite <= mClk_sprite + 1;
 		if(mClk_sprite == 0) begin
-			if(xPos_sprite2[0] && yPos_sprite2[0]) begin//Locations to change moving direction
+			if(xPos_sprite[0] && yPos_sprite[0]) begin//Locations to change moving direction
 				if(xPos_sprite < xPos_bombMan) begin
 					dir_temp[0] = 1;
 					x_diff = xPos_bombMan - xPos_sprite;
