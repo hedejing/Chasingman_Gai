@@ -1,0 +1,21 @@
+Running: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o F:/bomb/test_isim_beh.exe -prj F:/bomb/test_beh.prj test work.glbl 
+ISim M.81d (signature 0xcb73ee62)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file \"F:/bomb/game_controller.v\" into library work
+Analyzing Verilog file \"F:/bomb/test.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94620 KB
+Fuse CPU Usage: 202 ms
+Compiling module game_controller
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable F:/bomb/test_isim_beh.exe
+Fuse Memory Usage: 99208 KB
+Fuse CPU Usage: 264 ms

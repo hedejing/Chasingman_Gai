@@ -1,0 +1,447 @@
+xst -intstyle ise -ifn "C:/bomb/game_top.xst" -ofn "C:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/bomb/game_top.xst" -ofn "C:/bomb/game_top.syr" 
+xst -intstyle ise -ifn "C:/bomb/game_top.xst" -ofn "C:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/bomb/game_top.xst" -ofn "C:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/bomb/game_top.xst" -ofn "C:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb/game_top.xst" -ofn "F:/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+xst -intstyle ise -ifn "F:/bomb-chz/bomb/game_top.xst" -ofn "F:/bomb-chz/bomb/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "G:/ChasingmanHDJ/game_top.xst" -ofn "G:/ChasingmanHDJ/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/ChasingmanHDJ/game_top.xst" -ofn "F:/ChasingmanHDJ/game_top.syr" 
+xst -intstyle ise -ifn "F:/ChasingmanHDJ/game_top.xst" -ofn "F:/ChasingmanHDJ/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/ChasingmanHDJ/game_top.xst" -ofn "F:/ChasingmanHDJ/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/ChasingmanHDJ/game_top.xst" -ofn "F:/ChasingmanHDJ/game_top.syr" 
+xst -intstyle ise -ifn "F:/ChasingmanHDJ/game_top.xst" -ofn "F:/ChasingmanHDJ/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/ChasingmanHDJ/game_top.xst" -ofn "F:/ChasingmanHDJ/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "F:/ChasingmanHDJ/game_top.xst" -ofn "F:/ChasingmanHDJ/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.xst" -ofn "C:/Users/student/Desktop/ChasingmanHDJ3/game_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ctrl.ucf -p xc3s200-ft256-4 game_top.ngc game_top.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o game_top_map.ncd game_top.ngd game_top.pcf 
+par -w -intstyle ise -ol high -t 1 game_top_map.ncd game_top.ncd game_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml game_top.twx game_top.ncd -o game_top.twr game_top.pcf -ucf ctrl.ucf 
+bitgen -intstyle ise -f game_top.ut game_top.ncd 

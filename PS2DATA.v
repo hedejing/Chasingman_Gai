@@ -44,12 +44,11 @@ input wire PS2_CLK;
 output reg LEFT,RIGHT,UP,DOWN,LEFT2,RIGHT2,UP2,DOWN2;
 
 wire	[7: 0]	PS2_DATA;
-wire		BUZZER_EN;
 wire RST;
 
 assign RST = ~RSTn;
 
-kb_top m0(CLK, RST, PS2_DAT, PS2_CLK, PS2_DATA, BUZZER_EN);
+kb_top m0(CLK, RST, PS2_DAT, PS2_CLK, PS2_DATA);
 
 
 /*always @(negedge RST)

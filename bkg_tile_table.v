@@ -1,3 +1,4 @@
+//tile to compose background
 module bkg_tile_table(
 	addr,
 	q

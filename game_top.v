@@ -5,7 +5,7 @@
  */
 module game_top(
 	/*Clock Input*/ 
-	iCLK_50,						//  28.63636 MHz
+	iCLK_50,						//
 	/*Push Buttons*/
 	PS2_DAT,
 	PS2_CLK,//	Pushbutton[3:0]
@@ -18,9 +18,9 @@ module game_top(
 	oVGA_VS,						//	VGA V_SYNC
 	oVGA_BLANK_N,					//	VGA BLANK
 	oVGA_SYNC_N,					//	VGA SYNC
-	oVGA_R,   						//	VGA Red[9:0]
-	oVGA_G,	 						//	VGA Green[9:0]
-	oVGA_B  						//	VGA Blue[9:0]	   
+	oVGA_R,   						//	VGA Red
+	oVGA_G,	 						//	VGA Green
+	oVGA_B  						//	VGA Blue	   
 );
 
 /*******************************************************************************
@@ -31,7 +31,7 @@ module game_top(
 /* PORT declarations
  */
 /*Clock Input*/
-input			iCLK_50;				//  28.63636 MHz
+input			iCLK_50;			
 /*Keyboard Input*/
 input 		PS2_DAT;
 input			PS2_CLK;
@@ -44,9 +44,9 @@ output			oVGA_HS;				//	VGA H_SYNC
 output			oVGA_VS;				//	VGA V_SYNC
 output			oVGA_BLANK_N;			//	VGA BLANK
 output			oVGA_SYNC_N;			//	VGA SYNC
-output	[ 9: 0]	oVGA_R;   				//	VGA Red[9:0]
-output	[ 9: 0]	oVGA_G;	 				//	VGA Green[9:0]
-output	[ 9: 0]	oVGA_B;   				//	VGA Blue[9:0]
+output			oVGA_R;   				//	VGA Red
+output			oVGA_G;	 				//	VGA Green
+output			oVGA_B;   				//	VGA Blue
 /******************************************************************************/
 
 /* REG/WIRE declarations
@@ -59,9 +59,7 @@ assign reset_pin = ~iSW;
 assign oVGA_BLANK_N	= oVGA_HS & oVGA_VS;
 assign oVGA_SYNC_N	= 1'b0;
 assign oVGA_CLOCK   = CLK_25;
-assign oVGA_R[8: 0] = {9 {oVGA_R[9]}};
-assign oVGA_G[8: 0] = {9 {oVGA_G[9]}};
-assign oVGA_B[8: 0] = {9 {oVGA_B[9]}};
+
 
 //Background video rom
 wire [ 8: 0] oAddr_bkg;
@@ -87,7 +85,7 @@ wire         objram_we;
 always @(posedge iCLK_50) begin
 	CLK_25 <= ~CLK_25;
 end
-	
+
 //Game controller
 game_controller mGame_controller(
 	//Clock and reset
@@ -131,7 +129,7 @@ display_driver mDisplay_driver(
 	//Video output
 	.oHS(oVGA_HS),
 	.oVS(oVGA_VS),
-	.oRGB({oVGA_R[9], oVGA_G[9], oVGA_B[9]}),
+	.oRGB({oVGA_R, oVGA_G, oVGA_B}),
 	//Background video ram
 	.oAddr_bkg(oAddr_bkg),
 	.iDin_bkg(iDin_bkg_mux),
