@@ -1,8 +1,3 @@
-/* @brief
- * @input  
- * @output
- * @remark  
- */
 module display_driver(
 	//Clock and reset
 	clk,

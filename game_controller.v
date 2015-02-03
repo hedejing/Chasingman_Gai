@@ -1,8 +1,3 @@
-/* @brief
- * @input  
- * @output
- * @remark  
- */
 module game_controller(
 	//Clock and reset
 	clk,

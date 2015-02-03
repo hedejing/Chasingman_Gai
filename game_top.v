@@ -1,8 +1,3 @@
-/* @brief  Top module
- * @input  
- * @output
- * @remark  
- */
 module game_top(
 	/*Clock Input*/ 
 	iCLK_50,						//
@@ -36,7 +31,7 @@ input			iCLK_50;
 input 		PS2_DAT;
 input			PS2_CLK;
 /*DPDT Switches*/
-input			iSW;					//	Toggle Switch\
+input			iSW;					//	Toggle Switch
 input 		change;
 /*VGA*/
 output			oVGA_CLOCK;   			//	VGA Clock
@@ -161,19 +156,19 @@ assign iDin_bkg_mux = (bkg_sel == 0) ? iDin_bkg1 :
                       (bkg_sel == 1) ? iDin_bkg2 :
                       (bkg_sel == 2) ? iDin_bkg3 : 3'b000;
 
-//Background video rom 1 - PALY STATE
+//Background video rom 1 - PLAY STATE
 bkg_rom1 mBKG_ROM1(
 	.addr(oAddr_bkg),
 	.q(iDin_bkg1)
 );
 
-//Background video rom 2 - "WIN"
+//Background video rom 2 - "MAN WIN"
 bkg_rom2 mBKG_ROM2(
 	.addr(oAddr_bkg),
 	.q(iDin_bkg2)
 );
 
-//Background video rom 3 - "GAME OVER"
+//Background video rom 3 - "MAN2 WIN"
 bkg_rom3 mBKG_ROM3(
 	.addr(oAddr_bkg),
 	.q(iDin_bkg3)

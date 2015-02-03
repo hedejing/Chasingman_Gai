@@ -1,8 +1,3 @@
-/* @brief
- * @input  
- * @output
- * @remark  
- */
 module vga_timing(
 	//Clock and reset
 	clk,
